@@ -24,7 +24,7 @@
   
   - 環境構築 
   
-  '''
+  ```bash
   $ cd
   $ mkdir -p catkin_ws/src
   $ cd ~/catkin_ws/src
@@ -33,46 +33,52 @@
   "/opt/ros/melodic/share/catkin/cmake/toplevel.cmake"
   $ ls
   CMakeLists.txt
-  '''
+  ```
   
   - .bashrcの末尾に以下を記述 
-  
+  ```bash
   source /opt/ros/noetic/setup.bash          #これは元からある
   source ~/catkin_ws/devel/setup.bash         #ここから3行追加
   export ROS_MASTER_URI=http://localhost:11311
   export ROS_HOSTNAME=localhost
+  ```
   
   - 環境構築つづき 
-  
+  ```bash
   $ cd ~/catkin_ws/src
   $ git clone https://github.com/shukouki/mypkg.git
   $ cd ~/catkin_ws
   $ catkin_make
   $ source ~/.bashrc
+  ```
     
 ## 実行方法 
     -端末1(ROS起動) 
-    
+    ```bash
     $ roscore
+    ```
     
     -端末2(count.pyの実行) 
-    
+    ```bash
     $ cd ~/catkin_ws/src/mypkg/scripts/
     $ rosrun mypkg count.py
+    ```
     
     -端末3(count_upへの出力を確認) 
-    
+    ```bash
     $ rostopic echo /count_up
+    ```
     
     -端末4(sum.pyの実行) 
-    
+    ```bash
     $ cd ~/catkin_ws/src/mypkg/scripts/
     $ rosrun mypkg sum.py
+    ```
     
     -端末5(sumへの出力を確認) 
-    
+    ```bash
     $ rostopic echo /sum
-    
+    ```
 
 ## 参考 
   
