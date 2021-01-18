@@ -9,7 +9,9 @@
 - ノードcount.pyによってパブリッシャcount_upに2ずつ増加するデータを出力する変更をしました。 
 - ノードsum.pyによってパブリッシャsumにcount_upの値の合計を逐一出力する内容を加えました。
 
-## 実演動画
+## 実演動画 
+  [![](http://img.youtube.com/vi/ZE7f4JPUWxA/0.jpg)](http://www.youtube.com/watch?v=ZE7f4JPUWxA "ロボットシステム学課題２実演動画")
+  ↑の画像をクリックするとYouTubeで再生されます。
 
 ## 環境
 
@@ -97,4 +99,4 @@
 
 ## ライセンス
 
-https://github.com/shukouki/mypkg/blob/main/LICENSE
+  https://github.com/shukouki/mypkg/blob/main/LICENSE
