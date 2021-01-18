@@ -96,3 +96,5 @@
   https://github.com/GakuKuwano/robosys2020_ros
 
 ## ライセンス
+
+https://github.com/shukouki/mypkg/blob/main/LICENSE
