@@ -54,22 +54,26 @@
     
 ## 実行方法 
 
-    ##### 端末1(ROS起動) 
+    ### 端末1(ROS起動) 
+    
     $ roscore
     
-    ##### 端末2(count.pyの実行) 
+    ### 端末2(count.pyの実行) 
+    
     $ cd ~/catkin_ws/src/mypkg/scripts/
     $ rosrun mypkg count.py
     
-    ##### 端末3(count_upへの出力を確認) 
+    ### 端末3(count_upへの出力を確認) 
+    
     $ rostopic echo /count_up
     
-    ##### 端末4(sum.pyの実行) 
+    ### 端末4(sum.pyの実行) 
+    
     $ cd ~/catkin_ws/src/mypkg/scripts/
     $ rosrun mypkg sum.py
     
     
-    ##### 端末5(sumへの出力を確認) 
+    ### 端末5(sumへの出力を確認) 
     $ rostopic echo /sum
     
 
