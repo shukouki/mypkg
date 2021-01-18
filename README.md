@@ -58,7 +58,10 @@
     ```bash
     $ roscore
     ```
-    
+    ```bash
+    $ cd catkin_ws/src/mypkg/scripts/ 
+    $ rosrun mypkg count.py
+    ```
     -端末2(count.pyの実行) 
     
     ```bash
